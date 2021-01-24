@@ -8,7 +8,8 @@ const TextContainer = ({ users }) => (
   <div className='textContainer'>
     <div>
       <h1>
-        TakeChat, Realtime Chat App{" "}
+        TakeChat <br />
+        Realtime Chat App{" "}
         <span role='img' aria-label='emoji'>
           💬
         </span>
@@ -29,7 +30,7 @@ const TextContainer = ({ users }) => (
     {users ? (
       <div>
         <br></br>
-        <h1>People currently chatting:</h1>
+        <h1>접속중인 사용자</h1>
         <div className='activeContainer'>
           <h2>
             {users.map(({ name }) => (
