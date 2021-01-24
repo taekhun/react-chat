@@ -1,4 +1,4 @@
-# React-Chat App Client Side
+# React-Chat App Server Side
 
 ## How to
 
