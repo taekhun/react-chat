@@ -2,6 +2,7 @@ import { useState } from "react";
 import { Link } from "react-router-dom";
 
 import "./Join.css";
+import Footer from "../Footer/Footer";
 
 const Join = () => {
   const [name, setName] = useState("");
@@ -10,7 +11,7 @@ const Join = () => {
   return (
     <div className='joinOuterContainer'>
       <div className='joinInnerContainer'>
-        <h1 className='heading'>Join</h1>
+        <h1 className='heading'>TakeChat</h1>
         <div>
           <input
             placeholder='Name'
@@ -36,6 +37,7 @@ const Join = () => {
           </button>
         </Link>
       </div>
+      <Footer />
     </div>
   );
 };
